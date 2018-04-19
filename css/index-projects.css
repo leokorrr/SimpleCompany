@@ -67,7 +67,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: main;
+    font-family: headers;
     font-size: 200%
 }
 
@@ -96,7 +96,7 @@
 
 #projects-title{
     color: var(--main);
-    font-family: main;
+    font-family: headers;
     font-weight: bold;
     font-size: 400%;
     
@@ -125,9 +125,9 @@ i {
 }
 
 #check-projects{
-    font-family: main;
+    font-family: headers;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 200%;
     color: var(--main);
     margin-top: 5%;
     border-right: 1px solid var(--main);

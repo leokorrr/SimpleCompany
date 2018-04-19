@@ -49,9 +49,9 @@
 
 #history-title{
     color: var(--main);
-    font-family: main;
+    font-family: headers;
     font-weight: bold;
-    font-size: 400%;
+    font-size: 350%;
     
 }
 

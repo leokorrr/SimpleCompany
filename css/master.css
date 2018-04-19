@@ -16,3 +16,8 @@ body{
     font-family: description;
     src: url(../fonts/monda.ttf);
 }
+
+@font-face{
+    font-family: headers;
+    src: url(../fonts/ExpletusSans-Bold.ttf)
+}
