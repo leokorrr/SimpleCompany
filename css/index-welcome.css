@@ -1,0 +1,41 @@
+#welcome-box{
+    height: 90vh;
+    color: white;
+    
+}
+
+#particles-js{
+    background-color: #400c8d;
+    height: inherit;
+}
+
+#company-title-container{
+    position: absolute;
+    width: 100%;
+    margin-top: -90vh;
+    background-color: none;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    font-family: main;
+}
+
+#company-name{
+    font-size: 200%;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    font-weight: bold
+}
+
+#company-desc{
+    margin-top: 35vh;
+}
+
+
+
+
+
+

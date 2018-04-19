@@ -1,0 +1,18 @@
+:root{
+    --main: #400c8d;
+}
+
+body{
+    margin: 0 auto;
+}
+
+
+@font-face{
+    font-family: main;
+    src: url(../fonts/trench100free.otf);
+}
+
+@font-face{
+    font-family: description;
+    src: url(../fonts/monda.ttf);
+}

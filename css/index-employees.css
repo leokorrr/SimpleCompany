@@ -1,0 +1,30 @@
+#employees-box{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%; 
+    font-family: main;
+}
+
+.employees-wrapper{
+    width: 20%;
+}
+
+.employee-card{
+    width: 20%;
+    box-shadow: 0px 0px 5px #c4c4c4;
+    
+}
+
+.center-card{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.employee-img{
+    height: 70%;
+    background: url(../img/web-dev.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
