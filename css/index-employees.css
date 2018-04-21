@@ -8,7 +8,7 @@
     flex-wrap: wrap; 
     font-family: main;
     margin-top: -2%;
-    
+    text-align: center;
 }
 .employees-container{
     margin-top: 3%    
@@ -18,7 +18,8 @@
     color: var(--main);
     font-family: headers;
     font-weight: bold;
-    font-size: 300%
+    font-size: 300%;
+    max-width: 524px;
 }
 .employees-wrapper{
     width: 17%;
@@ -27,7 +28,7 @@
 .employee-card{
     width: 22%;
     height: 90%;
-/*    box-shadow: 0px 0px 5px #c4c4c4;*/
+    box-shadow: 0px 0px 5px #c4c4c4;
     
 }
 
@@ -38,10 +39,7 @@
 
 .employee-img{
     height: 70%;
-    background: url(../img/web-dev.jpg) center;
-    background-size: cover;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    
 }
 
 .employee-title{
@@ -51,15 +49,60 @@
     align-items: center;
     flex-wrap: wrap;
     font-size: 150%;
-    background-color: #f1f1f1;
+/*    background-color: #f7f7f7;*/
 }
 
 .employee-name{
     font-size: 130%;
     font-weight: bold;
     color: var(--main);
+    width: 100%;
 }
 
 .role{
-    margin-top: -10%
+    margin-top: -10%;
+    width: 100%;
+}
+
+
+#ceo{
+    background: url(../img/ceo.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#web-dev{
+    background: url(../img/web-dev.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#web-dev-girl{
+    background: url(../img/web-dev-girl.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#team-lead{
+    background: url(../img/team-lead.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#ux-designer{
+    background: url(../img/ux-designer.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#hr{
+    background: url(../img/HR.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
