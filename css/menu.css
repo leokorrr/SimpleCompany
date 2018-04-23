@@ -1,0 +1,53 @@
+.navbar{
+    background-color: transparent;
+    color: white;
+    font-family: main;
+    font-size: 200%;
+    box-shadow: none;
+    border: none;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 9999;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d1d1d1;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 120%;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #d1d1d1;
+}
+
+
+
+.dropdown-menu>li>a{
+    color: var(--main);
+    font-size: 150%;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #d1d1d1;
+    background-color: var(--main);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+   
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #d1d1d1;
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+}
