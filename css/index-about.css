@@ -1,3 +1,10 @@
+#about-box{
+    animation-name: box-appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
 #company-desc{
     overflow: hidden;
 }

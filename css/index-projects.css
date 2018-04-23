@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #projects-container{
@@ -102,6 +103,12 @@
     
 }
 
+#check-projects{
+    position: relative;
+    cursor: pointer''
+    
+    
+}
 #check-projects-desc-container{
     margin-top: -3%;
 }
