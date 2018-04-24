@@ -1,0 +1,112 @@
+#projects-box{
+  height:100vh;
+}
+
+.project-card{
+  padding: 0;
+  height: 100vh;
+  background-color: var(--main);
+  font-family: main;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+.project-data{
+  height: 100vh;
+  padding: 0;
+  width: 0;
+  overflow: hidden;;
+
+}
+.purple-layout{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--main);
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 250%;
+  font-weight: bold;
+  transition: 0.7s;
+}
+
+.purple-layout:hover{
+  opacity: 0;
+  color: var(--main);
+  cursor: pointer;
+}
+
+#colos{
+  background: url(../img/colosseum-2.jpg) center;
+  background-size: cover;
+  opacity: 1;
+}
+#eiffel{
+  background: url(../img/tower-2.jpg) center;
+  background-size: cover;
+}
+#ben{
+  background: url(../img/bigben-2.jpg) center;
+  background-size: cover;
+}
+#brandenburg{
+  background: url(../img/gates-2.jpg) center;
+  background-size: cover;
+}
+
+#project-icon{
+  width: 5vw;
+  height: 5vw;
+}
+
+.project-name{
+  padding: 10px;
+}
+.year{
+  width: 25%;
+  height: 25%;
+  background-color: var(--main);
+  font-size: 200%;
+}
+
+.constructor{
+  width: 25%;
+  height: 75%;
+
+}
+
+.data-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: main;
+  flex-wrap: wrap;
+}
+
+#tower-constructor{
+  width: 100%;
+  height: 100%;
+  background: url(../img/tower-constructor.jpg) center;
+  background-size: cover;
+
+}
+
+.constructor-color-layout{
+  width: inherit;
+  margin-top:85%;
+  margin-bottom: 5%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(64,12,141, 0.9);
+  font-size: 200%;
+}

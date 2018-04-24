@@ -43,4 +43,7 @@
     border-color: var(--main);
 }
 
+#email-link:hover{
+    text-decoration: nonel
+}
 

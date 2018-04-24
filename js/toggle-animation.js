@@ -15,7 +15,8 @@ $('#check-projects').click(function () {
         $('#check-projects').animate({
             marginLeft: "-5px",
         }, 100);
-    } else {
+    } 
+    else {
         $('#check-projects').animate({
             marginLeft: "5%",
         }, 400);
