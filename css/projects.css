@@ -1,9 +1,12 @@
+
 #projects-box{
   height:100vh;
+  width: 100vw;
 }
 
 .project-card{
   padding: 0;
+  margin: 0;
   height: 100vh;
   background-color: var(--main);
   font-family: main;
@@ -20,7 +23,7 @@
 
 }
 .purple-layout{
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: var(--main);
   color: white;
@@ -96,6 +99,36 @@
   background: url(../img/tower-constructor.jpg) center;
   background-size: cover;
 
+
+}
+
+#colosseum-constructor{
+  width: 100%;
+  height: 100%;
+  background: url(../img/colosseum-constructor.jpg) center;
+  background-size: cover;
+
+
+}
+
+
+#big-ben-constructor{
+  width: 100%;
+  height: 100%;
+  background: url(../img/big-ben-constructor.jpg) center;
+  background-size: cover;
+
+
+}
+
+
+#brandenburg-constructor{
+  width: 100%;
+  height: 100%;
+  background: url(../img/brandenburg-constructor.jpg) center;
+  background-size: cover;
+
+
 }
 
 .constructor-color-layout{
@@ -109,4 +142,16 @@
   text-align: center;
   background-color: rgba(64,12,141, 0.9);
   font-size: 200%;
+}
+
+#close-project{
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  cursor: pointer;
+  font-size: 150%;
+  background: transparent;
+  text-shadow: 0px 0px 3px black;
 }
