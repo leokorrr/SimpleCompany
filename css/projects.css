@@ -1,158 +1,293 @@
-
-#projects-box{
-  height:100vh;
-  width: 100vw;
+body{
+    font-family: main;
+}
+#projects-box {
+    height: 100vh;
+    width: 100vw;
 }
 
-.project-card{
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  background-color: var(--main);
-  font-family: main;
-  padding: 0;
-  position: relative;
-  z-index: 1;
-  display: flex;
-}
-.project-data{
-  height: 100vh;
-  padding: 0;
-  width: 0;
-  overflow: hidden;;
-
-}
-.purple-layout{
-  height: 100%;
-  width: 100%;
-  background-color: var(--main);
-  color: white;
-  opacity: 0.9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 250%;
-  font-weight: bold;
-  transition: 0.7s;
+.project-card {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--main);
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
 }
 
-.purple-layout:hover{
-  opacity: 0;
-  color: var(--main);
-  cursor: pointer;
+.project-data {
+    height: 100vh;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    ;
 }
 
-#colos{
-  background: url(../img/colosseum-2.jpg) center;
-  background-size: cover;
-  opacity: 1;
-}
-#eiffel{
-  background: url(../img/tower-2.jpg) center;
-  background-size: cover;
-}
-#ben{
-  background: url(../img/bigben-2.jpg) center;
-  background-size: cover;
-}
-#brandenburg{
-  background: url(../img/gates-2.jpg) center;
-  background-size: cover;
+.purple-layout {
+    height: 100%;
+    width: 100%;
+    background-color: var(--main);
+    color: white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    transition: 0.7s;
 }
 
-#project-icon{
-  width: 5vw;
-  height: 5vw;
+.purple-layout:hover {
+    opacity: 0;
+    color: var(--main);
+    cursor: pointer;
 }
 
-.project-name{
-  padding: 10px;
-}
-.year{
-  width: 25%;
-  height: 25%;
-  background-color: var(--main);
-  font-size: 200%;
+#colos {
+    background: url(../img/colosseum-2.jpg) center;
+    background-size: cover;
+    opacity: 1;
 }
 
-.constructor{
-  width: 25%;
-  height: 75%;
-
+#eiffel {
+    background: url(../img/tower-2.jpg) center;
+    background-size: cover;
 }
 
-.data-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  font-family: main;
-  flex-wrap: wrap;
+#ben {
+    background: url(../img/bigben-2.jpg) center;
+    background-size: cover;
 }
 
-#tower-constructor{
-  width: 100%;
-  height: 100%;
-  background: url(../img/tower-constructor.jpg) center;
-  background-size: cover;
-
-
+#brandenburg {
+    background: url(../img/gates-2.jpg) center;
+    background-size: cover;
 }
 
-#colosseum-constructor{
-  width: 100%;
-  height: 100%;
-  background: url(../img/colosseum-constructor.jpg) center;
-  background-size: cover;
+#project-icon {
+    width: 5vw;
+    height: 5vw;
+}
 
+.project-name {
+    padding: 10px;
+}
 
+.year {
+    width: 25%;
+    height: 25%;
+    background-color: var(--main);
+    font-size: 200%;
+}
+
+.constructor {
+    width: 25%;
+    height: 75%;
+}
+
+.data-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: main;
+    flex-wrap: wrap;
+}
+
+#tower-constructor {
+    width: 100%;
+    height: 100%;
+    background: url(../img/tower-constructor.jpg) center;
+    background-size: cover;
+}
+
+#colosseum-constructor {
+    width: 100%;
+    height: 100%;
+    background: url(../img/colosseum-constructor.jpg) center;
+    background-size: cover;
+}
+
+#big-ben-constructor {
+    width: 100%;
+    height: 100%;
+    background: url(../img/big-ben-constructor.jpg) center;
+    background-size: cover;
+}
+
+#brandenburg-constructor {
+    width: 100%;
+    height: 100%;
+    background: url(../img/brandenburg-constructor.jpg) center;
+    background-size: cover;
+}
+
+.constructor-color-layout {
+    width: inherit;
+    margin-top: 85%;
+    margin-bottom: 5%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(64, 12, 141, 0.9);
+    font-size: 200%;
+}
+
+#close-project {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    cursor: pointer;
+    font-size: 150%;
+    background: transparent;
+    text-shadow: 0px 0px 3px black;
+    display: none;
+}
+
+#colosseum-carousel {
+    display: none;
+    width: inherit;
+}
+
+#eiffel-carousel{
+    display: none;
+    width: inherit;
+}
+#big-ben-carousel{
+    display: none;
+    width: inherit;
+}
+#gates-carousel{
+    display: none;
+    width: inherit;
 }
 
 
-#big-ben-constructor{
-  width: 100%;
-  height: 100%;
-  background: url(../img/big-ben-constructor.jpg) center;
-  background-size: cover;
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
 
-
+.carousel-inner {
+    height: 100%;
 }
 
 
-#brandenburg-constructor{
-  width: 100%;
-  height: 100%;
-  background: url(../img/brandenburg-constructor.jpg) center;
-  background-size: cover;
+/* Background images are set within the HTML using inline CSS, not here */
 
-
+.fill {
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-.constructor-color-layout{
-  width: inherit;
-  margin-top:85%;
-  margin-bottom: 5%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(64,12,141, 0.9);
-  font-size: 200%;
+.project-mobile {
+    height: 50vh;
+    width: 100vw;
 }
 
-#close-project{
-  position: absolute;
-  color: white;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  cursor: pointer;
-  font-size: 150%;
-  background: transparent;
-  text-shadow: 0px 0px 3px black;
-  display: none;
+.project-mobile-carousel {
+    height: 60%;
+}
+
+.project-mobile-info {
+    height: 40%;
+    display: flex;
+}
+
+.years-mobile {
+    width: 50%;
+    color: white;
+    background-color: var(--main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 110%;
+}
+
+.constructor-mobile {
+    width: 50%;
+}
+
+#projects-mobile-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects-mobile {
+    display: none;
+}
+
+.constructor-name-container{
+    height: 20%;
+    width: 80%;
+    float: right;
+    color: white;
+    background-color: rgba(64,12,141, 0.8);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 65%;
+}
+
+.project-mobile-card{
+    margin-top: 5%;
+    box-shadow: 0px 2px 5px black;
+    background-color: var(--main);
+}
+
+#colloseum-constructor-mobile{
+    background: url(../img/colosseum-constructor.jpg);
+    background-size: cover;
+}
+
+#tower-constructor-mobile{
+    background: url(../img/tower-constructor.jpg);
+    background-size: cover;
+}
+
+#big-ben-constructor-mobile{
+    background: url(../img/big-ben-constructor.jpg);
+    background-size: cover;
+}
+
+#gates-constructor-mobile{
+    background: url(../img/brandenburg-constructor.jpg);
+    background-size: cover;
+}
+
+.project-title-mobile{
+    text-align: center;
+    width: 100%;
+    
+    font-size: 250%;
+    background-color: var(--main);
+    color: white;
+    font-family: headers;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 996px) {
+    #projects {
+        display: none;
+    }
+    #projects-mobile {
+        display: block;
+        margin-top: 50px;
+    }
 }
