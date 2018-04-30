@@ -5,13 +5,13 @@
 .employees-box{
     height: 50vh;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     font-family: main;
     margin-top: -2%;
     text-align: center;
 }
 .employees-container{
-    margin-top: 3%    
+    margin-top: 3%
 }
 
 #team-quote{
@@ -29,7 +29,7 @@
     width: 22%;
     height: 90%;
     box-shadow: 0px 0px 5px #c4c4c4;
-    
+
 }
 
 .center-card{
@@ -39,7 +39,7 @@
 
 .employee-img{
     height: 70%;
-    
+
 }
 
 .employee-title{
@@ -105,4 +105,29 @@
     background-size: cover;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+}
+
+@media screen and (max-width: 996px){
+  .employee-card{
+    height: 100%;
+  }
+  #lower-row{
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .employees-box{
+    height: 155vh;
+  }
+  .employee-card{
+    width: 100vw;
+    height: 50vh;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  #lower-row{
+    margin-top: -5%;
+  }
 }
