@@ -1,7 +1,7 @@
 #welcome-box{
     height: 90vh;
     color: white;
-    
+
 }
 
 #particles-js{
@@ -34,8 +34,21 @@
     margin-top: 35vh;
 }
 
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  #welcome-box{
+    height: 60vh;
+  }
+  #company-title-container{
+    height: 60vh;
+    margin-top: -60vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  #welcome-box{
+    height: 90vh;
+  }
+  #company-title-container{
+    height: 90vh;
+    margin-top: -90vh;
+  }
+}
