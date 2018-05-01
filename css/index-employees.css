@@ -118,6 +118,25 @@
 }
 
 @media screen and (max-width: 576px){
+    .employees-box{
+    height: 360vh;
+  }
+  .employee-card{
+    width: 130vw;
+    height: 100vh;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+      margin-top: 30px
+  }
+  #lower-row{
+    margin-top: -40px;
+  }
+    .employee-title{
+        height: 30vh;  
+    }
+}
+
+@media screen and (max-width: 450px){
   .employees-box{
     height: 155vh;
   }
@@ -126,8 +145,12 @@
     height: 50vh;
     margin-left: 1.5%;
     margin-right: 1.5%;
+    margin-top: 0;
   }
   #lower-row{
     margin-top: -5%;
   }
+    .employee-title{
+        height: 30%;  
+    }
 }

@@ -242,12 +242,12 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 65%;
+    margin-top: 50vh;
 }
 
 .project-mobile-card{
     margin-top: 5%;
-    box-shadow: 0px 2px 5px black;
+    box-shadow: 0px 0px 10px #343434;
     background-color: var(--main);
 }
 
@@ -274,12 +274,11 @@ body{
 .project-title-mobile{
     text-align: center;
     width: 100%;
-    
-    font-size: 250%;
+    font-size: 300%;
     background-color: var(--main);
     color: white;
     font-family: headers;
-    margin-top: 3%;
+    
 }
 
 @media screen and (max-width: 996px) {
@@ -290,4 +289,39 @@ body{
         display: block;
         margin-top: 50px;
     }
+    
+    .project-mobile {
+        height: 170vh;
+        width: 100vw;
+        font-size: 200%;
+    }
+}
+
+/*making responsible to iPhone 6/7/8 and 6/7/8 plus in horizontal poition*/
+@media screen and (max-width: 667px) {
+    
+    .project-mobile {
+        height: 70vh;
+        width: 100vw;
+        font-size: 250%;
+}
+    
+    .constructor-name-container{
+        margin-top: 20vh;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+    .project-mobile {
+        height: 60vh;
+        width: 100vw;
+        font-size: 150%;
+}
+    
+    .constructor-name-container{
+        margin-top: 18vh;
+    }
+    
 }

@@ -40,8 +40,8 @@
 }
 
 .icon{
-    width: inherit;
-    height: inherit;
+    width: 80%;
+    height: auto;
 }
 
 .feature{
@@ -90,7 +90,7 @@
 #triangle{
     width: 0;
     height: 0;
-    border-bottom: 60vw solid var(--main);
+    border-bottom: 90vw solid var(--main);
     border-left: 45vw solid transparent;
     opacity: 0.9;
     position: absolute;
@@ -99,9 +99,16 @@
 }
 
 @media screen and (max-width: 1200px) {
-  #triangle{
-    margin-top: 0;
-  }
+    #img-container{
+        height: 40vh;
+    }
+}
+
+/*iPad*/
+@media screen and (max-width: 1024px) {
+    #img-container{
+        height: 70vh;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -120,6 +127,7 @@
   }
   #img-container{
     margin: 0;
+    height: 70vh;
   }
 
   #company-desc-text{
@@ -130,3 +138,5 @@
     margin-top: -25vh;
   }
 }
+
+
