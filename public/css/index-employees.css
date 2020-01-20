@@ -1,0 +1,156 @@
+#employees{
+    margin-top: 10%;
+}
+
+.employees-box{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: main;
+    margin-top: -2%;
+    text-align: center;
+}
+.employees-container{
+    margin-top: 3%
+}
+
+#team-quote{
+    color: var(--main);
+    font-family: headers;
+    font-weight: bold;
+    font-size: 300%;
+    max-width: 524px;
+}
+.employees-wrapper{
+    width: 17%;
+}
+
+.employee-card{
+    width: 22%;
+    height: 90%;
+    box-shadow: 0px 0px 5px #c4c4c4;
+
+}
+
+.center-card{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.employee-img{
+    height: 70%;
+
+}
+
+.employee-title{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 150%;
+/*    background-color: #f7f7f7;*/
+}
+
+.employee-name{
+    font-size: 130%;
+    font-weight: bold;
+    color: var(--main);
+    width: 100%;
+}
+
+.role{
+    margin-top: -10%;
+    width: 100%;
+}
+
+
+#ceo{
+    background: url(../img/ceo.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#web-dev{
+    background: url(../img/web-dev.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#web-dev-girl{
+    background: url(../img/web-dev-girl.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#team-lead{
+    background: url(../img/team-lead.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#ux-designer{
+    background: url(../img/ux-designer.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#hr{
+    background: url(../img/HR.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+@media screen and (max-width: 996px){
+  .employee-card{
+    height: 100%;
+  }
+  #lower-row{
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 576px){
+    .employees-box{
+    height: 360vh;
+  }
+  .employee-card{
+    width: 130vw;
+    height: 100vh;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+      margin-top: 30px
+  }
+  #lower-row{
+    margin-top: -40px;
+  }
+    .employee-title{
+        height: 30vh;  
+    }
+}
+
+@media screen and (max-width: 450px){
+  .employees-box{
+    height: 155vh;
+  }
+  .employee-card{
+    width: 100vw;
+    height: 50vh;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 0;
+  }
+  #lower-row{
+    margin-top: -5%;
+  }
+    .employee-title{
+        height: 30%;  
+    }
+}

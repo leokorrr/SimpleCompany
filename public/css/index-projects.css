@@ -1,0 +1,219 @@
+#projects-box{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#projects-container{
+    width: 55vw;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 50px #c3c3c3;
+}
+
+.project{
+    width: 27.5vw;
+    height: 32.5vh;
+    box-shadow: 0px 0px 10px #2d2d2d;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.project:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#first{
+    background: url(../img/colosseum.jpg)  center no-repeat;
+    background-size: cover;
+}
+
+#second{
+    background: url(../img/tower.jpg)  center no-repeat;
+    background-size: cover;
+}
+
+#third{
+    background: url(../img/bigben.jpg)  center no-repeat;
+    background-size: cover;
+}
+
+#fourth{
+    background: url(../img/gates.jpg)  center no-repeat;
+    background-size: cover;
+}
+
+#see-project-container{
+    width: 55vw;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.see-project-box{
+    position: relative;
+    z-index: 2;
+    width: 27.5vw;
+    height: 32.5vh;
+    margin-top: -65vh;
+    background-color: ;
+    color: transparent;
+    opacity: 0.9;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: headers;
+    font-size: 200%
+}
+
+.project-link{
+    color: transparent;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.see-project-box:hover{
+    background-color: var(--main);
+}
+
+.see-project-box:hover>.project-link{
+    color: white;
+    text-decoration: none;
+}
+
+.see-project{
+    width: 22.5vw;
+    height: 27.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-title{
+    color: var(--main);
+    font-family: headers;
+    font-weight: bold;
+    font-size: 300%;
+
+
+}
+
+#check-projects{
+    position: relative;
+    cursor: pointer;
+
+
+}
+#check-projects-desc-container{
+    margin-top: -3%;
+}
+
+#check-projects-desc{
+    font-family: description;
+    font-size: 110%;
+}
+
+i {
+    border: solid var(--main);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 7px;
+    margin-right: 3%;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#arrow-container{
+  width: 100%;
+}
+#check-projects-box{
+  width: 100%;
+}
+
+#check-projects{
+    font-family: headers;
+    font-weight: bold;
+    font-size: 200%;
+    color: var(--main);
+    margin-top: 5%;
+    border-right: 1px solid var(--main);
+    display: flex;
+    align-items: center;
+
+}
+
+#check-projects-desc-container-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #projects-container{
+    height: 55vw;
+  }
+  .project{
+    height: 27.5vw;
+  }
+}
+
+@media screen and (max-width: 576px){
+  #projects-box{
+    width: 100vw;
+    height: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #check-projects-desc-container{
+    display: none;
+  }
+  #check-projects-desc-container-mobile{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+   #check-projects-desc{
+    width: 100%;
+
+    }
+  #projects-col{
+    width: 100%;
+
+    display: block;
+  }
+  #projects-container{
+    width: 100%;
+    height: 160vh;
+    overflow: hidden;
+    box-shadow: none;
+  }
+  .project{
+    width: 100vw;
+    height: 40vh;
+    margin-bottom: 3%;
+  }
+
+  #check-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+}

@@ -1,0 +1,26 @@
+.footer-col{
+    background-color: black;
+    color: #757575;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: main;
+}
+
+#facebook-logo{
+    padding-right: 10px;
+}
+
+.social-media-icon:hover{
+    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+}
+
+.reference-link{
+    color: var(--main);
+}
+
+.reference-link:hover{
+    color: var(--main);
+}

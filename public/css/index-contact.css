@@ -1,0 +1,49 @@
+#contact-box{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(../img/contact.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#contact-info-container{
+    height: inherit;
+    width: 100%;
+    background-color: rgba(64,12,141, 0.9);
+    font-family: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-text{
+    font-size: 250%;
+    font-weight: bold;
+}
+
+#email-button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 170%;
+    border-radius: 100px;
+    padding: 1% 2% 1% 2%;
+    box-shadow: 0px 0px 5px black;
+    transition: 0.3s;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#email-button:hover{
+    color: var(--main);
+    background-color: white;
+    border-color: var(--main);
+}
+
+#email-link:hover{
+    text-decoration: nonel
+}
+

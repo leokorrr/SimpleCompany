@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Company</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="css/master.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/ScrollTrigger/example/demo.css">
+    <link rel="stylesheet" href="css/projects.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="menu">
+            <div class="row" id="menu-box">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      </button>
+                            <a class="navbar-brand" href="index.html">SimpleCompany</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+                              <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="projects.html" class="castle-title">Colosseum</a></li>
+                                        <li><a href="projects.html" class="castle-title">Eiffel tower</a></li>
+                                        <li><a href="projects.html" class="castle-title">Big-ben</a></li>
+                                        <li><a href="projects.html" class="castle-title">Brandenburg gates</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="row" id="projects-box">
+                <div id="close-project" closure-attr="default">
+                    <div id="close-functionality" class="closure">✖</div>
+                </div>
+
+                <div class="col-md-3 project-card" id="colos">
+
+                    <div id="colosseum-carousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#colosseum-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#colosseum-carousel" data-slide-to="1"></li>
+                            <li data-target="#colosseum-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="fill" style="background-image:url(img/colosseum-2.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/colosseum-carousel-1.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/colosseum-carousel-2.jpg);"></div>
+                                
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#colosseum-carousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#colosseum-carousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+
+                    <div class="purple-layout">
+                        <div class="project-info-container">
+
+                            <div class="project-icon"><img src="img/colosseum.svg" alt="" id="project-icon"></div>
+                            <div class="project-name">Colosseum</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 project-data" id="colos-data">
+                    <div class="year data-container">
+                        <div>Construction finished: 70–80 AD</div>
+                    </div>
+                    <div class="constructor data-container" id="colosseum-constructor">
+                        <div class="constructor-color-layout">
+                            <div>Vespasian</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 project-card" id="eiffel">
+                   
+                    <div id="eiffel-carousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#eiffel-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#eiffel-carousel" data-slide-to="1"></li>
+                            <li data-target="#eiffel-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="fill" style="background-image:url(img/tower-2.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/eiffel-tower-carousel-1.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/eiffel-tower-carousel-2.jpg);"></div>
+                                
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#eiffel-carousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#eiffel-carousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <div class="purple-layout">
+                        <div class="project-info-container">
+                            <div class="project-icon"><img src="img/tower.svg" alt="" id="project-icon"></div>
+                            <div class="project-name">Eiffel tower</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 project-data" id="eiffel-data">
+                    <div class="year data-container">
+                        <div>Construction finished: 1889</div>
+                    </div>
+                    <div class="constructor data-container" id="tower-constructor">
+                        <div class="constructor-color-layout">
+                            <div>Gustave Eiffel</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 project-card" id="ben">
+                      <div id="big-ben-carousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#big-ben-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#big-ben-carousel" data-slide-to="1"></li>
+                            <li data-target="#big-ben-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="fill" style="background-image:url(img/big-ben-2.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/big-ben-carousel-1.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/big-ben-carousel-2.jpg);"></div>
+                                
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#big-ben-carousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#big-ben-carousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                   
+                    <div class="purple-layout">
+                        <div class="project-info-container">
+                            <div class="project-icon"><img src="img/bigben.svg" alt="" id="project-icon"></div>
+                            <div class="project-name">Big-ben</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 project-data" id="ben-data">
+                    <div class="year data-container">
+                        <div>Construction finished: 1859</div>
+                    </div>
+                    <div class="constructor data-container" id="big-ben-constructor">
+                        <div class="constructor-color-layout">
+                            <div>Charles Barry</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 project-card" id="brandenburg">
+                   <div id="gates-carousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#gates-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#gates-carousel" data-slide-to="1"></li>
+                            <li data-target="#gates-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="fill" style="background-image:url(img/gates-2.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/gates-carousel-1.jpg);"></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image:url(img/gates-carousel-2.jpg);"></div>
+                                
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#gates-carousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#gates-carousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <div class="purple-layout">
+                        <div class="project-info-container">
+                            <div class="project-icon"><img src="img/gates.svg" alt="" id="project-icon"></div>
+                            <div class="project-name">Branderburg gates</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 project-data" id="brandenburg-data">
+                    <div class="year data-container">
+                        <div>Construction finished: 1791</div>
+                    </div>
+                    <div class="constructor data-container" id="brandenburg-constructor">
+                        <div class="constructor-color-layout">
+                            <div>Carl Gotthard Langhans</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects-mobile">
+            <div class="row" id="projects-mobile-box">
+                <div class="project-mobile-card" id="colosseum-mobile">
+                    <div class="project-title-mobile">Colosseum</div>
+                    <div class="project-mobile">
+                    <div class="project-mobile-carousel">
+                        <div id="colloseum-mobile-carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#colloseum-mobile-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#colloseum-mobile-carousel" data-slide-to="1"></li>
+                                <li data-target="#colloseum-mobile-carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="fill" style="background-image:url(img/colosseum-2.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/colosseum-carousel-1.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/colosseum-carousel-2.jpg);"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <a class="left carousel-control" href="#colloseum-mobile-carousel" data-slide="prev">
+                                <span class="icon-prev"></span>
+                            </a>
+                            <a class="right carousel-control" href="#colloseum-mobile-carousel" data-slide="next">
+                                <span class="icon-next"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-mobile-info">
+                        <div class="years-mobile">Construction finished 70-80 AD</div>
+                        <div class="constructor-mobile" id="colloseum-constructor-mobile"><div class="constructor-name-container">Vespasian</div></div>
+                    </div>
+                </div>
+                </div>
+                <div class="project-mobile-card" id="tower-mobile">
+                    <div class="project-title-mobile">Eiffel tower</div>
+                    <div class="project-mobile">
+                <div class="project-mobile-carousel">
+                    <div id="eiffel-mobile-carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#eiffel-mobile-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#eiffel-mobile-carousel" data-slide-to="1"></li>
+                                <li data-target="#eiffel-mobile-carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="fill" style="background-image:url(img/tower-2.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/eiffel-tower-carousel-1.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/eiffel-tower-carousel-2.jpg);"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <a class="left carousel-control" href="#eiffel-mobile-carousel" data-slide="prev">
+                                <span class="icon-prev"></span>
+                            </a>
+                            <a class="right carousel-control" href="#eiffel-mobile-carousel" data-slide="next">
+                                <span class="icon-next"></span>
+                            </a>
+                        </div>
+                </div>
+                <div class="project-mobile-info">
+                    <div class="years-mobile">Construction finished 1889</div>
+                    <div class="constructor-mobile" id="tower-constructor-mobile"><div class="constructor-name-container">Gustave Eiffel</div></div>
+                </div>
+            </div>
+                </div>
+                <div class="project-mobile-card" id="big-ben-mobile">
+                    <div class="project-title-mobile">Big-ben</div>
+                    <div class="project-mobile">
+                <div class="project-mobile-carousel">
+                    <div id="big-ben-mobile-carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#big-ben-mobile-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#big-ben-mobile-carousel" data-slide-to="1"></li>
+                                <li data-target="#big-ben-mobile-carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="fill" style="background-image:url(img/bigben-2.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/big-ben-carousel-1.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/big-ben-carousel-2.jpg);"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <a class="left carousel-control" href="#big-ben-mobile-carousel" data-slide="prev">
+                                <span class="icon-prev"></span>
+                            </a>
+                            <a class="right carousel-control" href="#big-ben-mobile-carousel" data-slide="next">
+                                <span class="icon-next"></span>
+                            </a>
+                        </div>
+                </div>
+                <div class="project-mobile-info">
+                    <div class="years-mobile">Construction finished 1859</div>
+                    <div class="constructor-mobile" id="big-ben-constructor-mobile"><div class="constructor-name-container">Charles Barry</div></div>
+                </div>
+            </div>
+                </div>
+                <div class="project-mobile-card" id="gates-mobile">
+                    <div class="project-title-mobile">Brandenburg gates</div>
+                    <div class="project-mobile">
+                <div class="project-mobile-carousel">
+                    <div id="gates-mobile-carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#gates-mobile-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#gates-mobile-carousel" data-slide-to="1"></li>
+                                <li data-target="#gates-mobile-carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="fill" style="background-image:url(img/gates-2.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/gates-carousel-1.jpg);"></div>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="fill" style="background-image:url(img/gates-carousel-2.jpg);"></div>
+                                    
+                                </div>
+                            </div>
+
+                            <a class="left carousel-control" href="#gates-mobile-carousel" data-slide="prev">
+                                <span class="icon-prev"></span>
+                            </a>
+                            <a class="right carousel-control" href="#gates-mobile-carousel" data-slide="next">
+                                <span class="icon-next"></span>
+                            </a>
+                        </div>
+                </div>
+                <div class="project-mobile-info">
+                    <div class="years-mobile">Construction finished 1791</div>
+                    <div class="constructor-mobile" id="gates-constructor-mobile"><div class="constructor-name-container">Carl Langhans</div></div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/menu-color-change.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/ScrollTrigger/ScrollTrigger.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var trigger = new ScrollTrigger();
+    });
+</script>
+
+<script src="js/show-project.js"></script>
+
+</html>
